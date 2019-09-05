@@ -9,7 +9,7 @@ def map(array)
   return new 
 end
 
-def reduce(array, staring_value = 0)
+def reduce(array, staring_value = nil)
     if staring_value
       num1 = staring_value
       i = 0 
