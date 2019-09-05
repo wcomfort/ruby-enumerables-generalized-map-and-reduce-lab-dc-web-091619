@@ -9,7 +9,7 @@ def map(array)
   return new 
 end
 
-def reduce(array, sv = 0)
+def reduce(array, sv = nil)
     if sv
       num1 = sv
       i = 0 
