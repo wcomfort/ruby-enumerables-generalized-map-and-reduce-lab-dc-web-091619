@@ -9,14 +9,14 @@ def map(array)
   return new 
 end
 
-def reduce(array, staring_value = 0)
-    if staring_value
-      num1 = staring_value
+def reduce(array, sv = 0)
+    if sv
+      num1 = sv
       i = 0 
     else 
       num1 = array[0]
       i = 1 
-      yield(array[i] += staring_value)
+      yield(array[i] += sv)
     end 
   while i < array.length do
    num1 = yield(num1, array[i])
