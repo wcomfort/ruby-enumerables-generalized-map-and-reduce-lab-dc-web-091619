@@ -22,4 +22,5 @@ def reduce(array, staring_value = 0)
    num1 = yield(num1, array[i])
    i += 1 
   end 
+  num1
 end 
