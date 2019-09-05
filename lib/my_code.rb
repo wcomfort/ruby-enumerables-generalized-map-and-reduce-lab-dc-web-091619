@@ -19,7 +19,7 @@ def reduce(array, staring_value = 0)
       yield(array[i] += staring_value)
     end 
   while i < array.length do
-    yield(num1, array[i])
+   num1 = yield(num1, array[i])
   end 
   i += 1 
 end 
