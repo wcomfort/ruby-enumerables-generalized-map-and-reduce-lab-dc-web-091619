@@ -20,6 +20,6 @@ def reduce(array, staring_value = 0)
     end 
   while i < array.length do
    num1 = yield(num1, array[i])
+   i += 1 
   end 
-  i += 1 
 end 
